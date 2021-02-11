@@ -1,0 +1,21 @@
+{
+  "name": "Xiaomin-Homepage",
+  "version": "1.0.0",
+  "description": "Xiaomin's Personal Website for Web Development Class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Xiaomin Ouyang",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "prettier": "^2.2.1"
+  }
+}
