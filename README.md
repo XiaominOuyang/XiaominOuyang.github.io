@@ -1,9 +1,9 @@
 # Xiaomin's Website
-Author: [Xiaomin Ouyang](https://pages.github.ccs.neu.edu/ouyangxiaomin/ouyangxiaomin.github.io/)
+Author: [Xiaomin Ouyang](https://xiaominouyang.github.io/)
 
 Class Link: [Web Development](https://johnguerra.co/classes/webDevelopment_spring_2021/)
 
-[Video demonstration]()
+[Video demonstration](https://youtu.be/zZrSm8e00Uo)
 
 ## Objectives
 - Learn about HTML/CSS/JS/Bootstrap
