@@ -1,21 +1,17 @@
+let relationship = {
+  "images/xiaomin1.jpg": "images/xiaomin2.jpg",
+  "images/xiaomin2.jpg": "images/xiaomin1.jpg",
+  "images/drawing1.png": "images/drawing4.png",
+  "images/drawing4.png": "images/drawing1.png",
+  //some more relationship.... 
+}
+var dict = {
+  FirstName: "Chris",
+  "one": 1,
+  1: "some value"
+};
 $(document).ready(function () {
   $("img").click(function () {
-    if ($(this).attr("src") === "images/xiaomin1.jpg") {
-      $(this).attr("src", "images/xiaomin2.jpg");
-    } else if ($(this).attr("src") === "images/xiaomin2.jpg") {
-      $(this).attr("src", "images/xiaomin1.jpg");
-    } else if ($(this).attr("src") === "images/drawing1.png") {
-      $(this).attr("src", "images/drawing4.png");
-    } else if ($(this).attr("src") === "images/drawing4.png") {
-      $(this).attr("src", "images/drawing1.png");
-    } else if ($(this).attr("src") === "images/drawing2.png") {
-      $(this).attr("src", "images/drawing5.png");
-    } else if ($(this).attr("src") === "images/drawing5.png") {
-      $(this).attr("src", "images/drawing2.png");
-    } else if ($(this).attr("src") === "images/drawing3.png") {
-      $(this).attr("src", "images/drawing6.png");
-    } else {
-      $(this).attr("src", "images/drawing3.png");
-    }
+    $(this).attr("src", relationship[$(this).attr("src")]);
   });
 });
